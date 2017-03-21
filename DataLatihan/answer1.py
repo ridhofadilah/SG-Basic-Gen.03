@@ -12,7 +12,7 @@ x = readData(data1)
 txt = []
 for c in x:
 	if c == 'I':txt.append('*')
-	if c =='you' or c == 'The' or c== 'and':txt.append('*'*3)
+	elif c =='you' or c == 'The' or c== 'and':txt.append('*'*3)
 	else:txt.append(c)
 txt = ' '.join(txt)
 print(txt)

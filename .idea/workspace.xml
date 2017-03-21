@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e623cf8-61dd-4621-86b2-e25515fcf8b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataLatihan/answer1.py" afterPath="$PROJECT_DIR$/DataLatihan/answer1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataLatihan/answer2.py" afterPath="$PROJECT_DIR$/DataLatihan/answer2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="answer1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="answer1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataLatihan/answer1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="answer2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="answer2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataLatihan/answer2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
@@ -66,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataLatihan/answer1.py" />
         <option value="$PROJECT_DIR$/DataLatihan/answer2.py" />
+        <option value="$PROJECT_DIR$/DataLatihan/answer1.py" />
       </list>
     </option>
   </component>
@@ -141,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.answer2">
+  <component name="RunManager" selected="Python.answer1">
     <configuration default="false" name="answer1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,8 +315,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.answer2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.answer1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.answer1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.answer2" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataLatihan/answer1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataLatihan/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -393,6 +384,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataLatihan/answer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
