@@ -1,0 +1,3 @@
+SOAL
+
+1. buatlah perkalian matriks tanpa menggunakan library!
