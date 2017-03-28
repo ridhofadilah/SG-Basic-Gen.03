@@ -1,1 +1,2 @@
-# buatlah perkalian matriks tanpa menggunakan library.
+SOAL
+# Buatlah perkalian matriks tanpa menggunakan library!
