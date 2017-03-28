@@ -1,5 +1,12 @@
 data1 = "Data1.txt"
+<<<<<<< HEAD
 data2 = "Data2.txt"
+=======
+<<<<<<< HEAD
+=======
+data2 = "Data2.txt"
+>>>>>>> 54fd24fcc1ceb26221e1e7500236ea1ea98f470b
+>>>>>>> b586b14620a8074d582cf5d429afbdaf040bc519
 
 def readData(data1):
 	x = []
@@ -7,6 +14,10 @@ def readData(data1):
 	    for line in data :
 		    x = line.split()
 	return x
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b586b14620a8074d582cf5d429afbdaf040bc519
 
 teks = readData(data1)
 a= []
@@ -20,4 +31,10 @@ for word in teks :
 		a.append(word)
 
 paragraf = ' '.join(a)
+<<<<<<< HEAD
 print (paragraf)
+=======
+print (paragraf)
+=======
+>>>>>>> 54fd24fcc1ceb26221e1e7500236ea1ea98f470b
+>>>>>>> b586b14620a8074d582cf5d429afbdaf040bc519

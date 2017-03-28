@@ -6,6 +6,10 @@ def readData(data1):
 	with open(data1) as data :
 	    for line in data :
 		    x = line.split()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b586b14620a8074d582cf5d429afbdaf040bc519
 	return x
 
 teks1 = readData(data1)
@@ -23,3 +27,9 @@ for word1 in teks1 :
 					teks3.append(word2)
 
 print (teks3)
+<<<<<<< HEAD
+=======
+=======
+return x
+>>>>>>> 54fd24fcc1ceb26221e1e7500236ea1ea98f470b
+>>>>>>> b586b14620a8074d582cf5d429afbdaf040bc519
