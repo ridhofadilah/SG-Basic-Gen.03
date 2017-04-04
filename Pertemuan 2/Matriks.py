@@ -22,7 +22,7 @@ temp2=[]
 temp3=[]
 
 for each in matriks1:
-	counter +=1
+	counter +=1 
 	if counter==1:
 		temp1.append(each)
 	elif counter == 2:
