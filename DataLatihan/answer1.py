@@ -7,3 +7,13 @@ def readData(data1):
 	    for line in data :
 		    x = line.split()
 	return x
+
+x = readData(data1)
+txt = []
+for i in x:
+	if i == 'I': txt.append('*')
+	elif ((i == 'and') or (i == 'you') or (i == 'the')) : txt.append('*')
+	else: txt.append(i)
+
+h = ' '.join(txt)
+print(h)
