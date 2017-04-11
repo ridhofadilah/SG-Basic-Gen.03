@@ -7,7 +7,7 @@ def readData(data1):
 	    for line in data :
 		    x = line.split()
 	return x
-<<<<<<< HEAD
+
 def unique(y):
 	output = []
 	for x in y:
@@ -23,7 +23,6 @@ y = unique(y)
 b = set(x).intersection(y)
 
 print (b)
-=======
 
 x = readData(data1)
 y = readData(data2)
@@ -37,4 +36,4 @@ for i in x:
 			
 
 print(txt)
->>>>>>> refs/remotes/ComputingTelU/master
+
