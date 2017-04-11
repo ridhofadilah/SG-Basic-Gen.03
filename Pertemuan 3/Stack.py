@@ -12,7 +12,7 @@ def Pop(info,top):
 info = []
 top = -1
 
-teks = "()()()()(())((())))"
+teks = "((())"
 for each in teks :
 	if each == '(':
 		top += 1
