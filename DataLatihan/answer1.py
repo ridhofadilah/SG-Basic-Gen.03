@@ -10,14 +10,13 @@ def readData(data1):
 
 x = readData(data1)
 txt = []
-<<<<<<< HEAD
 for c in x:
 	if c == 'I':txt.append('*')
 	elif c =='you' or c == 'The' or c== 'and':txt.append('*'*3)
 	else:txt.append(c)
 txt = ' '.join(txt)
 print(txt)
-=======
+
 for i in x:
 	if i == 'I': txt.append('*')
 	elif ((i == 'and') or (i == 'you') or (i == 'the')) : txt.append('*')
@@ -25,4 +24,3 @@ for i in x:
 
 h = ' '.join(txt)
 print(h)
->>>>>>> refs/remotes/ComputingTelU/master
