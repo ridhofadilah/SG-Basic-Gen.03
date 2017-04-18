@@ -46,16 +46,60 @@ class Graph(object):
     def __getitem__(self,vertex):
       return self.__graph_dict[vertex]
 
-graph = Graph()
+def dfs(graph,start):
+    visited = []
+    stack = [start]
 
-for i in range(6):
-    graph.add_vertex(i)
+    while stack:
+        vertex = stack.pop()
 
-print(graph.getVertices())
+        if vertex not in visited:
+            visited.append(vertex)
+            for neighbour in graph[vertex]:
+                stack.append(neighbour)
+    return visited
 
-graph.add_edge({1,2})
+def bfs(graph,start):
+    visited = []
+    queue = [start]
 
-print(graph.getEdges())
+    while queue:
+        vertex = queue.pop(0)
+
+        if vertex not in visited:
+            visited.append(vertex)
+            for neighbour in graph[vertex]:
+                queue.append(neighbour)
+    return visited
+
+
+g = {1: set([3, 2]),
+         2: set([1,4, 5]),
+         3: set([1,6,7]),
+         4: set([2,8]),
+         5: set([2, 8]),
+         6: set([3,8]),
+         7: set([3,8]),
+         8: set([4,5,6,7])}
+
+graph = Graph(g)
+
+# for i in range(6):
+#     graph.add_vertex(i)
+
+# print(graph.getVertices())
+
+# graph.add_edge({1,2})
+
+# print(graph.getEdges())
 
 print(graph)
+print(dfs(graph,1))
+print(bfs(graph,1))
+a=[1,2,3]
+b=[2,3,4]
+
+for i in a:
+    if i not in b:
+        print(i)
 
