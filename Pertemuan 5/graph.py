@@ -1,5 +1,4 @@
-            self.__graph_dict[vertex1] = [vertex2]
-aclass Graph(object):
+class Graph(object):
 
     def __init__(self, graph_dict=None):
         if graph_dict == None:
