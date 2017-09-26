@@ -14,12 +14,12 @@ Jika ingin mengerjakan soal, hal yang sebelumnya harus dilakukan adalah:
 Contoh: di sini ada folder "1301142077-Enki Probo Sidhi" dengan isi dua file hasil copy-an yaitu "greedysoal1.py" dan "greedysoal2.py". Artinya, enki akan mengerjakan ke dua tugas tersebut.
 
 ## Tugas 1 - TSP(Travelling Salesman Problem) with Greedy
-![alt text](./tsp.png)
+![alt text](https://github.com/ComputingTelU/SG-Basic-Gen.03/blob/master/Pertemuan%209%20-%20Greedy/Soal%20dan%20Tempat%20Pengumpulan%20Jawaban/tsp.PNG)
 
 Buat program untuk mencari jarak minimal agar Pak Pos bisa berkeliling kota dari kota E ke kota E lagi dengan syarat 1 kota hanya boleh dikunjungi satu kali. Buat programnya harus dengan greedy.
 
 
 ## Tugas 2 - Coin Change with Greedy
-![alt text](./coinchange.png)
+![alt text](https://github.com/ComputingTelU/SG-Basic-Gen.03/blob/master/Pertemuan%209%20-%20Greedy/Soal%20dan%20Tempat%20Pengumpulan%20Jawaban/coinchange.PNG)
 
 Buat program yang akan menampilkan koin-koin yang memiliki nominal 7. Jumlah koin harus sesedikit mungkin. Buat programnya harus dengan greedy.
