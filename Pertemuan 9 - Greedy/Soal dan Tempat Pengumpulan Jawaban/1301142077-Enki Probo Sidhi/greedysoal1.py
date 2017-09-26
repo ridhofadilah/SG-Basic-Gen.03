@@ -12,12 +12,7 @@ himpunan_kandidat = [[999, 6, 5, 9, 5], # list jarak dari titik A
 perjalanan = "E->" # mulainya dari titik E
 
 # selanjutnya kalian yang isi
-###################################################################
 
-
-
-
-###################################################################
 
 # print hasil akhir
 print perjalanan # hasil akhir harus E->B->A->C->D->E
